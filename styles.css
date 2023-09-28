@@ -2,6 +2,7 @@
     --header-color:#43b3e7;
 }
 
+
 header {
     background-color: var(--header-color);
     height: 320px;
@@ -11,24 +12,42 @@ header {
     justify-content: center;
     
     
+    
 }
 
 header p {
     margin: -3px;
     color: white;
 }
+
 header  h1{
     color: white;
 }
 
-main {
-    float:left
-    
+.container-2{
+    display:flex;
+    flex-direction: row;  
+
 }
 
+main {
+    flex: 1;
+    flex-shrink: 1;
+}
 
+article {
+    border: 1px solid;
+    margin: 50px;
+    
+    
+    
+}
 aside {
-    float: right;
+    flex-basis: 200px;
+    background-color: yellow;
+    margin: 50px;
+    flex-shrink: 2;
+    
 }
 
 img {
@@ -38,6 +57,3 @@ img {
     border-radius: 50%;
 }
 
-footer {
-    clear: both;
-}
