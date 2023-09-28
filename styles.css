@@ -1,0 +1,43 @@
+:root {
+    --header-color:#43b3e7;
+}
+
+header {
+    background-color: var(--header-color);
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+header p {
+    margin: -3px;
+    color: white;
+}
+header  h1{
+    color: white;
+}
+
+main {
+    float:left
+    
+}
+
+
+aside {
+    float: right;
+}
+
+img {
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    clear: both;
+}
